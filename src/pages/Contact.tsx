@@ -78,8 +78,16 @@ const Contact = () => {
       </nav>
 
       {/* Hero Section - Drop Us a Line */}
-      <section className="py-16 bg-gradient-to-b from-gray-100 to-white relative">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-50 to-transparent opacity-50"></div>
+      <section 
+        className="py-16 bg-gradient-to-b from-gray-100 to-white relative"
+        style={{
+          backgroundImage: 'url("/lovable-uploads/22af506e-d16b-46fd-bd47-bb05b9504d84.png")',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundBlendMode: 'soft-light'
+        }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-50/80 to-white/80"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Drop Us a Line</h1>
           <p className="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
